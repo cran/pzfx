@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/Yue-Jiang/pzfx.svg?branch=master)](https://travis-ci.org/Yue-Jiang/pzfx)
-[![codecov](https://codecov.io/gh/Yue-Jiang/pzfx/branch/master/graph/badge.svg)](https://codecov.io/gh/Yue-Jiang/pzfx)
+[![R-CMD-check](https://github.com/Yue-Jiang/pzfx/workflows/R-CMD-check/badge.svg)](https://github.com/Yue-Jiang/pzfx/actions)
+[![codecov](https://codecov.io/gh/Yue-Jiang/pzfx/branch/master/graph/badge.svg)](https://app.codecov.io/gh/Yue-Jiang/pzfx)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/pzfx)](https://cran.r-project.org/package=pzfx)
 
 # pzfx <img src="man/figures/logo.png" width="100" align="right" />
@@ -37,3 +37,7 @@ To write a list of data frames or matrices to a `.pzfx` file
 ```
 write_pzfx(list("Table Name 1" = df1, "Table Name 2" = df2), "/path/to/my/pzfx/file")
 ```
+
+# Note
+
+A few years after this package was first released, GraphPad has introduced a new file format `.prism` and is more open. If you are interested in working with the new format in R, please check out the [prism2R](https://github.com/Biomiha/prism2R) package by Miha Kosmac.
